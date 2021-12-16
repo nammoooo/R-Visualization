@@ -34,3 +34,5 @@ ggplot(data = diamonds,aes(x=clarity,y=carat,col=cut)) + geom_boxplot()
 ggplot(data = diamonds,aes(x=clarity,y=carat,fill=clarity)) + geom_boxplot()
 ggplot(data = diamonds,aes(x=clarity,y=carat)) + geom_boxplot()
 
+ggplot(data = diamonds,aes(x=price)) + geom_histogram (fill="khaki3",col="lavenderblush4")
+  ggplot(data = diamonds,aes(x=price,fill=price)) + geom_histogram ()
